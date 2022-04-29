@@ -1,34 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
 <plugins>
-    <pyqgis_plugin name="3D City Builder" version="0.3" plugin_id="2176">
-        <description><![CDATA[Generate 3D models of urban areas using DEM.]]></description>
-        <about><![CDATA[Create 3D Models of Urban Areas using your files or online databases.
-To generate the 3D Model, this plugin uses Aerial Imagery (Satellite Image), DTM (Digital Terrain Model aka DEM, Digital Elevation Model), DSM (Digital Surface Model) and a Footprint layer (the contour of the buildings).
-
-A sample dataset is available to make it easier for you to test this plugin: https://3dcitygen-test-dataset.s3.amazonaws.com/test-dataset-vienna.zip
-
-Opitionally, you can follow the steps under https://landscapearchaeology.org/2018/installing-python-packages-in-qgis-3-for-windows/ to install the following libraries on QGIS Python: geopandas numpy osmnx.]]></about>
-        <version>0.3</version>
+   	<pyqgis_plugin name="Pointr Scripts" version="0.3.8" plugin_id="1">
+        <description><![CDATA[All available previoulsy developed scripts]]></description>
+        <about><![CDATA[Processing and exportings]]></about>
+        <version>0.3.8</version>
         <trusted>False</trusted>
         <qgis_minimum_version>3.0.0</qgis_minimum_version>
         <qgis_maximum_version>3.99.0</qgis_maximum_version>
-        <homepage><![CDATA[https://github.com/arthurRuf/3dcitybuilder]]></homepage>
-        <file_name>citygen.0.3.zip</file_name>
-        <icon>/media/packages/2021/icon_UvVEUaU.png</icon>
-        <author_name><![CDATA[Arthur Ruf Hosang da Costa]]></author_name>
-        <download_url>https://plugins.qgis.org/plugins/citygen/version/0.3/download/</download_url>
-        <uploaded_by><![CDATA[arthurhosang]]></uploaded_by>
-        <create_date>2020-10-07T14:35:46.141014</create_date>
-        <update_date>2021-07-06T05:17:29.223092</update_date>
+        <file_name>pointr_scripts</file_name>
+        <icon></icon>
+        <author_name><![CDATA[J. Pierson, UMR 6554 LETG, CNRS]]></author_name>
+        <download_url>https://drive.google.com/uc?export=download&id=1KdFI2rSaoETfY5AUhqI0D1AFr-78oQKf</download_url>
+        <uploaded_by><![CDATA[Maksim Vozniyk]]></uploaded_by>
+        <create_date>2022-03-30T05:38:12.156605</create_date>
+        <update_date>2022-03-30T05:38:12.513173</update_date>
         <experimental>True</experimental>
         <deprecated>False</deprecated>
-        <tracker><![CDATA[https://github.com/arthurRuf/3dcitybuilder/issues]]></tracker>
-        <repository><![CDATA[https://github.com/arthurRuf/3dcitybuilder]]></repository>
-        <tags><![CDATA[python,water,openstreetmap,osm,dem,dtm,3d,view,river,urban planning,dsm]]></tags>
-        <downloads>15579</downloads>
-        <average_vote>4.904528355792581</average_vote>
-        <rating_votes>21</rating_votes>
+        <tags><![CDATA[python]]></tags>
+        <average_vote>0.0</average_vote>
+        <rating_votes>0</rating_votes>
         <external_dependencies></external_dependencies>
         <server>False</server>
     </pyqgis_plugin>
