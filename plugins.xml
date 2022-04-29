@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="/static/style/plugins.xsl" ?>
+<plugins>
+   	<pyqgis_plugin name="Pointr Scripts" version="0.3.6" plugin_id="1">
+        <description><![CDATA[Rename and reorder raster bands]]></description>
+        <about><![CDATA[This plugin renames and reorder bands in a raster layer, see home page for more details.]]></about>
+        <version>0.3.6</version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.0.0</qgis_minimum_version>
+        <qgis_maximum_version>3.99.0</qgis_maximum_version>
+        <file_name>rename_bands.0.1.zip</file_name>
+        <icon></icon>
+        <author_name><![CDATA[J. Pierson, UMR 6554 LETG, CNRS]]></author_name>
+        <download_url>https://drive.google.com/file/d/1KdFI2rSaoETfY5AUhqI0D1AFr-78oQKf/view?usp=sharing</download_url>
+        <uploaded_by><![CDATA[Maksim Vozniyk]]></uploaded_by>
+        <create_date>2022-03-30T05:38:12.156605</create_date>
+        <update_date>2022-03-30T05:38:12.513173</update_date>
+        <experimental>True</experimental>
+        <deprecated>False</deprecated>
+        <tags><![CDATA[python]]></tags>
+        <average_vote>0.0</average_vote>
+        <rating_votes>0</rating_votes>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin>
+</plugins>
